@@ -1,0 +1,12 @@
+.img-shadow {
+
+    box-shadow: 2px 2px 5px black;
+}
+    
+
+body { padding-top: 70px; }
+
+.col-xs-4{
+
+    border: 5px solid black ; 
+}
