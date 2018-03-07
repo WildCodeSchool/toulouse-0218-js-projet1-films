@@ -4,14 +4,27 @@ body{
 img{
   width:100%;
 }
+
 body{
   background-color: #ccc45c;
 }
+
 footer{
-  background-color: #ccc45c;
+  background-color: ;
 }
+
 figure{
   width:30%;
   float:right;
   font-family:Arial;
+}
+
+p{
+	text-align:justify;
+}
+h6{
+	text-align: justify;
+}
+li{
+	list-style: none;
 }
