@@ -1,0 +1,17 @@
+body{
+}
+
+img{
+  width:100%;
+}
+body{
+  background-color: #ccc45c;
+}
+footer{
+  background-color: #ccc45c;
+}
+figure{
+  width:30%;
+  float:right;
+  font-family:Arial;
+}
