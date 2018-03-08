@@ -30,7 +30,9 @@ li{
 }
 footer{
 	height: 100px;
-
 	background-image: url(photos/Footer.png);
 	background-size: 100% 100%;
+}
+.col-xs-9 p{
+	font-size:18px;
 }
