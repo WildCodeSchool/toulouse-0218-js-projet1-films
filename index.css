@@ -8,8 +8,20 @@ body { padding-top: 50px; }
 
 .col-xs-4{
 
-    border: 1px solid black ;  
+    border-right: 1px solid black ;  
+    border-bottom: 1px solid black ;  
+
    
+}
+.col-xs-4:nth-child(1) {
+	border-left:  1px solid black ;  
+    /*  */
+
+   
+}
+
+.container2 .row:first-child .col-xs-4 {
+	border-top: 1px solid black ;
 }
 
 .rounded-image{
@@ -36,16 +48,24 @@ h4{
 h1 {
 	margin-left: 50px ;
 	margin-right: 50px ;
-<<<<<<< HEAD
+
 }
 
-.row{
- overflow: hidden; 
+/*----------------------- Rows -----------------------*/
+.row {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-[class*="col-xs-4"]{
- margin-bottom: -99999px;
- padding-bottom: 99999px;
+/* https://julienmelissas.com/no-gutter-column-trick-for-bootstrap/ */
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 @media screen and (max-width: 800px)
@@ -59,3 +79,4 @@ h1 {
 	}
 
 }
+

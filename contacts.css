@@ -6,23 +6,7 @@
 
 body { padding-top: 50px; }
 
-.col-xs-4{
 
-    border-right: 1px solid black ;  
-    border-bottom: 1px solid black ;  
-
-   
-}
-.col-xs-4:nth-child(1) {
-	border-left:  1px solid black ;  
-    /*  */
-
-   
-}
-
-.container2 .row:first-child .col-xs-4 {
-	border-top: 1px solid black ;
-}
 
 .rounded-image{
     overflow: hidden;
@@ -48,13 +32,17 @@ h4{
 h1 {
 	margin-left: 50px ;
 	margin-right: 50px ;
-
+<<<<<<< HEAD
 }
 
 .row{
- display: flex;
-  flex-wrap: nowrap;
-  }
+ overflow: hidden; 
+}
+
+[class*="col-xs-4"]{
+ margin-bottom: -99999px;
+ padding-bottom: 99999px;
+}
 
 @media screen and (max-width: 800px)
 {
@@ -67,3 +55,45 @@ h1 {
 	}
 
 }
+
+#conteneur 
+{
+    text-align: center; 
+    
+}
+
+input 
+{
+        margin-left:9em;
+        height:px;
+        width: 300px;
+          
+}
+
+textarea
+{
+        margin-left:9em;
+        height:100px;
+        width: 300px;
+          
+}
+
+.submit
+{
+        margin-left:9em;
+        height:px;
+        width: 30px;
+          
+}
+
+.fauteuil
+{
+	width: 45%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.rezo{
+	width:25%;
+}
+
