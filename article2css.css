@@ -8,17 +8,33 @@ figure{
   float:right;
   text-align:right;
   font-size:14px;
+  font-style:italic;
 }
 
 p{
 	font-size:18px;
+	text-align: justify;
 }
 
 li{
 	list-style: none;
 }
-body > img{
-	box-shadow: 10px 11px 10px 10px;
+figure > img{
+	box-shadow: 3px 3px 0px 0px;
 }
 
-col-xs-3
+.carac{
+	font-weight: bold;
+}
+
+.asavoir{
+	text-decoration:underline;
+}
+
+.rezo{
+	width:25%;
+}
+
+.logo{
+	width:75%;
+}
