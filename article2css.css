@@ -10,9 +10,7 @@ figure{
   font-size:14px;
   font-style:italic;
 }
-h2{
 
-}
 p{
 	font-size:18px;
 	text-align: justify;
@@ -42,14 +40,18 @@ figure > img{
 	text-align: center;
 }
 
-.rezo{
-	width:25%;
-}
-
 .logo{
 	width:75%;
 }
 
-#basdepage{
-	width: 100%;
+h1{
+	font-size: 48px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+
+/* Partie CSS du <footer> */
+.rezo{
+	width:25%;
 }
