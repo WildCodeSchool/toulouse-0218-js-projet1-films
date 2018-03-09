@@ -1,0 +1,35 @@
+img{
+  width:100%;
+}
+
+figure{
+  width:30%;
+  font-family:Arial;
+  float:right;
+  text-align:right;
+  font-size:14px;
+}
+
+p{
+	font-size:18px;
+}
+
+li{
+	list-style: none;
+}
+figure > img{
+	box-shadow: 3px 3px 0px 0px;
+}
+
+	/* CSS Carousel */
+.carousel{
+     border: 3px black dashed; 
+}
+
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+
+.bs-example{
+	width: 100%;	
+}
