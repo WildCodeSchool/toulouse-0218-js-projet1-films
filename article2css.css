@@ -8,17 +8,48 @@ figure{
   float:right;
   text-align:right;
   font-size:14px;
+  font-style:italic;
 }
+h2{
 
+}
 p{
 	font-size:18px;
+	text-align: justify;
+}
+
+.article{
+	background-color: rgba(204, 204, 179, 0.7);
+	border-radius: 5px;
+	padding-top: 7px;
 }
 
 li{
 	list-style: none;
 }
-body > img{
-	box-shadow: 10px 11px 10px 10px;
+figure > img{
+	box-shadow: 3px 3px 0px 0px;
+	margin-left:10px;
 }
 
-col-xs-3
+.carac{
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.asavoir{
+	text-decoration:underline;
+	text-align: center;
+}
+
+.rezo{
+	width:25%;
+}
+
+.logo{
+	width:75%;
+}
+
+#basdepage{
+	width: 100%;
+}
