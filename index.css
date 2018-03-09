@@ -51,10 +51,22 @@ h1 {
 
 }
 
-.row{
- display: flex;
+/*----------------------- Rows -----------------------*/
+.row {
+  display: flex;
   flex-wrap: nowrap;
-  }
+}
+
+/* https://julienmelissas.com/no-gutter-column-trick-for-bootstrap/ */
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 @media screen and (max-width: 800px)
 {
@@ -67,3 +79,4 @@ h1 {
 	}
 
 }
+
