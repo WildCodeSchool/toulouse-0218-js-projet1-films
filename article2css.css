@@ -10,7 +10,9 @@ figure{
   font-size:14px;
   font-style:italic;
 }
+h2{
 
+}
 p{
 	font-size:18px;
 	text-align: justify;
@@ -21,10 +23,12 @@ li{
 }
 figure > img{
 	box-shadow: 3px 3px 0px 0px;
+	margin-left:10px;
 }
 
 .carac{
 	font-weight: bold;
+	font-variant: small-caps;
 }
 
 .asavoir{
