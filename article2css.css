@@ -18,6 +18,12 @@ p{
 	text-align: justify;
 }
 
+.article{
+	background-color: rgba(204, 204, 179, 0.7);
+	border-radius: 5px;
+	padding-top: 7px;
+}
+
 li{
 	list-style: none;
 }
@@ -33,6 +39,7 @@ figure > img{
 
 .asavoir{
 	text-decoration:underline;
+	text-align: center;
 }
 
 .rezo{
@@ -41,4 +48,8 @@ figure > img{
 
 .logo{
 	width:75%;
+}
+
+#basdepage{
+	width: 100%;
 }
