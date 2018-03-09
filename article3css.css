@@ -33,3 +33,7 @@ figure > img{
 .bs-example{
 	width: 100%;	
 }
+	/* CSS video */
+.embed-responsive-item{
+	width: 100%;
+}
