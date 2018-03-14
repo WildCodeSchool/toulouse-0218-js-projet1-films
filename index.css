@@ -6,24 +6,16 @@
 
 body { padding-top: 50px; }
 
-.border{
+/*.border{
+  background-color: rgba(220, 220, 220, 0.7);
+  border-radius: 5px;
+  padding-top: 7px;
+  margin-bottom: 0.5%;
+  padding: 15px ;
+  border-color: white 5px ;
+}*/
 
-    border-right: 1px solid black ;  
-    border-bottom: 1px solid black ; 
-    text-align: justify; 
-
-   
-}
-.border:nth-child(1) {
-	border-left:  1px solid black ;  
-    /*  */
-
-   
-}
-
-.container .row:first-child .border {
-	border-top: 1px solid black ;
-}
+  
 
 .rounded-image{
     overflow: hidden;
@@ -34,10 +26,12 @@ body { padding-top: 50px; }
     height: 90px;
 }
 
-.container{
-	margin-right: 50px ;
-    margin-left: 50px ; 
+.marge{
+	  margin-right: 5% ;
+    margin-left: 11.8% ; 
     height: auto;
+    position: relative;
+
 }
 
 .none{
@@ -57,23 +51,15 @@ h1 {
 }
 
 /*----------------------- Rows -----------------------*/
-.row {
+/*.row {
   display: flex;
   flex-wrap: nowrap;
 }
-
+*/
 /* https://julienmelissas.com/no-gutter-column-trick-for-bootstrap/ */
-.row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
-.row.no-gutters > [class^="col-"],
-.row.no-gutters > [class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0;
-}
 
-@media screen and (max-width: 800px)
+
+/*@media screen and (max-width: 800px)
 {
 	.border{
 		width: auto;
@@ -84,7 +70,7 @@ h1 {
 	}
 
 }
-
+*/
 
   /*Bannière*/
 .logo{
