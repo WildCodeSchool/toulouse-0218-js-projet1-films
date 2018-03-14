@@ -53,9 +53,32 @@ p{
 }
 .contacte{
     text-align: center;
-    font-size: 100%;
+    
 }
-.texarea{
-    width: 300px;
+textarea{
+    min-width: 500px;
+    max-width: 500px;
     height: 2em;
+}
+
+    /*jean claude*/
+.rounded-image{
+    overflow: hidden;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+}
+
+#name{
+    width: 500px;
+}
+
+#email{
+    width: 500px;
+}
+
+#yourmessage{
+    width: 500px;
 }
