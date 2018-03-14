@@ -4,7 +4,7 @@ img{
 
 figure{
   width:30%;
-  font-family:Arial;
+  font-family: 'Roboto', sans-serif;
   float:right;
   text-align:right;
   font-size:14px;
@@ -14,6 +14,7 @@ figure{
 p{
 	font-size:18px;
 	text-align: justify;
+	font-family: 'Roboto', sans-serif;
 }
 
 .article{
@@ -25,6 +26,7 @@ p{
 
 li{
 	list-style: none;
+	font-family: 'Roboto', sans-serif;
 }
 figure > img{
 	box-shadow: 3px 3px 0px 0px;
@@ -53,6 +55,7 @@ h1{
 	font-size: 48px;
 	font-variant: small-caps;
 	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
 }
 
 
