@@ -6,7 +6,7 @@
 
 body { padding-top: 50px; }
 
-.col-xs-4{
+.border{
 
     border-right: 1px solid black ;  
     border-bottom: 1px solid black ; 
@@ -14,14 +14,14 @@ body { padding-top: 50px; }
 
    
 }
-.col-xs-4:nth-child(1) {
+.border:nth-child(1) {
 	border-left:  1px solid black ;  
     /*  */
 
    
 }
 
-.container2 .row:first-child .col-xs-4 {
+.container .row:first-child .border {
 	border-top: 1px solid black ;
 }
 
@@ -34,7 +34,7 @@ body { padding-top: 50px; }
     height: 90px;
 }
 
-.container2{
+.container{
 	margin-right: 50px ;
     margin-left: 50px ; 
     height: auto;
@@ -75,7 +75,7 @@ h1 {
 
 @media screen and (max-width: 800px)
 {
-	.col-xs-4{
+	.border{
 		width: auto;
 	}
 
