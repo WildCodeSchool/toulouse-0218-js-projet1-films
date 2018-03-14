@@ -55,3 +55,8 @@ h1{
 .rezo{
 	width:25%;
 }
+
+	/* CSS video */
+.embed-responsive-item{
+	width: 100%;
+}
