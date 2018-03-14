@@ -35,15 +35,18 @@ figure > img{
 	font-variant: small-caps;
 }
 
+	/*Colonne de gauche*/
 .asavoir{
 	text-decoration:underline;
 	text-align: center;
 }
 
+	/*Bannière*/
 .logo{
-	width:75%;
+	width:50%;
 }
 
+	/*Titre article*/
 h1{
 	font-size: 48px;
 	font-variant: small-caps;
@@ -51,12 +54,21 @@ h1{
 }
 
 
-/* Partie CSS du <footer> */
+	/* Partie CSS du <footer> */
 .rezo{
 	width:25%;
 }
 
 	/* CSS video */
 .embed-responsive-item{
-	width: 100%;
+	width: 90%;
+	float: right;
 }
+
+	/* CSS Carousel */
+.carousel{
+     border: 3px black dashed; 
+}
+
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
