@@ -1,99 +1,61 @@
-.img-shadow {
-
-    box-shadow: 1px 1px 1px black;
-}
-    
-
-body { padding-top: 50px; }
-
-
-
-.rounded-image{
-    overflow: hidden;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
-    width: 90px;
-    height: 90px;
+img{
+  width:100%;
 }
 
-.container2{
-	margin-right: 50px ;
-    margin-left: 50px ; 
-    height: auto;
+figure{
+  width:30%;
+  font-family:Arial;
+  float:right;
+  text-align:right;
+  font-size:14px;
+  font-style:italic;
 }
 
-h4{
-	font-size: 16px ;
-	font-family: Georgia, Times New Roman , Verdana ;
-	font-style: italic;
+p{
+    font-size:18px;
+    text-align: justify;
 }
 
-h1 {
-	margin-left: 50px ;
-	margin-right: 50px ;
-<<<<<<< HEAD
+    /*Bannière*/
+.logo{
+    width:50%;
+    margin-bottom: 0.4%;
 }
 
-.row{
- overflow: hidden; 
-}
 
-[class*="col-xs-4"]{
- margin-bottom: -99999px;
- padding-bottom: 99999px;
-}
-
-@media screen and (max-width: 800px)
-{
-	.col-xs-4{
-		width: auto;
-	}
-
-	.responsive {
-		display: none;
-	}
-
-}
-
-#conteneur 
-{
-    text-align: center; 
-    
-}
-
-input 
-{
-        margin-left:9em;
-        height:px;
-        width: 300px;
-          
-}
-
-textarea
-{
-        margin-left:9em;
-        height:100px;
-        width: 300px;
-          
-}
-
-.submit
-{
-        margin-left:9em;
-        height:px;
-        width: 30px;
-          
-}
-
-.fauteuil
-{
-	width: 45%;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
+    /* Partie CSS du <footer> */
 .rezo{
-	width:25%;
+    width:25%;
 }
 
+.backrezo{
+    background-color: rgba(220, 220, 220, 0.7);
+    border-radius: 5px;
+    padding-top: 7px;
+    margin-top: 0.5%;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+    margin-bottom: 0.4%;
+}
+
+    /* CSS video */
+.embed-responsive-item{
+    width: 90%;
+    float: right;
+}
+
+    /* FAUTEUILS */
+.fauteuil{
+   
+    margin-top: 40px;
+    margin-bottom: 40px;
+  
+}
+.contacte{
+    text-align: center;
+    font-size: 100%;
+}
+.texarea{
+    width: 300px;
+    height: 2em;
+}
