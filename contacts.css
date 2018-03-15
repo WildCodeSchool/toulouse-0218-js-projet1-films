@@ -71,7 +71,7 @@ textarea{
     border-radius: 80px;
     width: 65%;
 }
-
+    /*contacts*/
 #name{
     width: 500px;
 }
@@ -83,4 +83,9 @@ textarea{
 #yourmessage{
     width: 500px;
     min-height: 300px;
+}
+    /*décalage navbar/bannière*/
+body {
+    padding-top: 4%;
+
 }
