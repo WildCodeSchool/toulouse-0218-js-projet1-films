@@ -4,7 +4,10 @@
 }
     
 
-body { padding-top: 50px; }
+body { 
+  padding-top: 4%;
+  
+   }
 
 /*.border{
   background-color: rgba(220, 220, 220, 0.7);
@@ -15,7 +18,17 @@ body { padding-top: 50px; }
   border-color: white 5px ;
 }*/
 
-  
+h4{
+  font-size: 48px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+li{
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
 
 .rounded-image{
     overflow: hidden;
@@ -38,11 +51,6 @@ body { padding-top: 50px; }
   display: none;
 }
 
-h4{
-	font-size: 16px ;
-	font-family: Georgia, Times New Roman , Verdana ;
-	font-style: italic;
-}
 
 h1 {
 	margin-left: 50px ;
