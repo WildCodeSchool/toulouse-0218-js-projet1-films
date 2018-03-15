@@ -2,6 +2,9 @@ img{
   width:100%;
 }
 
+body {
+	padding:4%;
+}
 figure{
   width:30%;
   font-family: 'Roboto', sans-serif;
