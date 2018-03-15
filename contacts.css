@@ -4,7 +4,7 @@ img{
 
 figure{
   width:30%;
-  font-family:Arial;
+  font-family: 'Roboto', sans-serif;
   float:right;
   text-align:right;
   font-size:14px;
@@ -14,12 +14,18 @@ figure{
 p{
     font-size:18px;
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
 }
 
     /*Bannière*/
 .logo{
     width:50%;
     margin-bottom: 0.4%;
+}
+
+li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -46,15 +52,15 @@ p{
 
     /* FAUTEUILS */
 .fauteuil{
-   
     margin-top: 40px;
-    margin-bottom: 40px;
-  
+    margin-bottom: 40px; 
 }
+
 .contacte{
     text-align: center;
-    
+    font-family: 'Roboto', sans-serif; 
 }
+
 textarea{
     min-width: 500px;
     max-width: 500px;
@@ -71,21 +77,28 @@ textarea{
     border-radius: 80px;
     width: 65%;
 }
+
     /*contacts*/
 #name{
     width: 500px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #email{
     width: 500px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #yourmessage{
     width: 500px;
     min-height: 300px;
+    font-family: 'Roboto', sans-serif;
 }
     /*décalage navbar/bannière*/
-body {
+body{
     padding-top: 4%;
+}
 
+h4 {
+    font-size: 30px;
 }
