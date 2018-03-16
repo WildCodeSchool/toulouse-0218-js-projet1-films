@@ -39,6 +39,7 @@ figure > img{
 .carac{
 	font-weight: bold;
 	font-variant: small-caps;
+	word-wrap: break-word;
 }
 
 	/*Colonne de gauche*/
@@ -90,3 +91,9 @@ h1{
 
 .carousel .item img{
     margin: 0 auto; /* Align slide image horizontally center */
+}
+
+.navbar-brand {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}

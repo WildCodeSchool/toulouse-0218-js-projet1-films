@@ -15,6 +15,7 @@ p{
     font-size:18px;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
+    padding-top: 3%;
 }
 
     /*Bannière*/
@@ -76,6 +77,7 @@ textarea{
     border: solid black 2px;
     border-radius: 80px;
     width: 65%;
+
 }
 
     /*contacts*/
@@ -101,4 +103,18 @@ body{
 
 h4 {
     font-size: 30px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.jcvd > h3{
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.jcvd{
+    text-align:center;
+}
+.navbar-brand {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
 }
