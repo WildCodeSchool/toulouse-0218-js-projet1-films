@@ -90,3 +90,9 @@ h1{
 
 .carousel .item img{
     margin: 0 auto; /* Align slide image horizontally center */
+}
+
+.navbar-brand {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
