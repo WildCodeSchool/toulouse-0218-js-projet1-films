@@ -29,8 +29,8 @@ p{
 
 li{
 	list-style: none;
-/*	font-family: 'Roboto', sans-serif;
-*/}
+	font-family: 'Roboto', sans-serif;
+}
 figure > img{
 	box-shadow: 3px 3px 0px 0px;
 	margin-left:10px;
