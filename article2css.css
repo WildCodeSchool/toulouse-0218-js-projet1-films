@@ -39,6 +39,7 @@ figure > img{
 .carac{
 	font-weight: bold;
 	font-variant: small-caps;
+	word-wrap: break-word;
 }
 
 	/*Colonne de gauche*/
